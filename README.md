@@ -30,8 +30,8 @@ Due to variations in input and output handling across different MLLMs, we provid
 Examples:
 
 ```bash
-cd ./evaluation/InternVL_3_5
-python internvl_gen.py # For description and answer generation
-python eval.py # For Evaluation
+cd ./evaluation
+python InternVL/description_gen.py --model InternVL2_5_38B # For description and answer generation
+python eval.py --eval_file InternVL/InternVL2_5-38B_description.xlsx  # For Evaluation
 
 ```
