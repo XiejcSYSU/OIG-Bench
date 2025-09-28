@@ -21,7 +21,7 @@ In this study, we introduced a multi-agent based annotation pipeline to generate
 
 ### 1. Data Preparation
 
-Download the data from xxx and place in ``./data``
+Download the data from [Here](https://drive.google.com/file/d/136u12VByVBimrlCXadHUdR3bBf30JhUJ/view?usp=drive_link) and place in ``./data/fig``
 
 ### 2. Run Evalutaion
 
