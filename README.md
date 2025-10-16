@@ -23,7 +23,7 @@ In this study, we introduced a multi-agent based annotation pipeline to generate
 
 Download the data from [Here](https://drive.google.com/file/d/136u12VByVBimrlCXadHUdR3bBf30JhUJ/view?usp=drive_link) and place in ``./data/fig``
 
-### 2. Run Evalutaion
+### 2. Run Evaluation
 
 Due to variations in input and output handling across different MLLMs, we provide an example implementation using InternVL3_5. In addition, since the evaluation involves invoking the commercial model GPT‑4.1, users are required to replace the placeholder with their own GPT API token.
 
@@ -34,4 +34,17 @@ cd ./evaluation
 python InternVL/description_gen.py --model InternVL2_5_38B # For description and answer generation
 python eval.py --eval_file InternVL/InternVL2_5-38B_description.xlsx  # For Evaluation
 
+```
+
+## Citation
+
+If you find our work helpful for your research, please consider citing our work.
+
+```
+@article{xie2025oig,
+  title={OIG-Bench: A Multi-Agent Annotated Benchmark for Multimodal One-Image Guides Understanding},
+  author={Xie, Jiancong and Wang, Wenjin and Zhang, Zhuomeng and Liu, Zihan and Liu, Qi and Feng, Ke and Sun, Zixun and Yang, Yuedong},
+  journal={arXiv preprint arXiv:2510.00069},
+  year={2025}
+}
 ```
