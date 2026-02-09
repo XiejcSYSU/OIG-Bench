@@ -21,7 +21,9 @@ In this study, we introduced a multi-agent based annotation pipeline to generate
 
 ### 1. Data Preparation
 
-Download the data and place it in ``./data/fig``. Data can be downloaded from https://huggingface.co/datasets/onion411/OIG-Bench.
+Download the data from [Here](https://drive.google.com/file/d/136u12VByVBimrlCXadHUdR3bBf30JhUJ/view?usp=drive_link) and place in ``./data/fig``
+
+（Note: we have added approximately 200 images, which will be added to the dataset later)
 
 ### 2. Run Evaluation
 
